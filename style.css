@@ -8,7 +8,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
-    min-height: 100vh;
+    min-height: calc(100vh - 1px);
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -24,8 +24,8 @@ body {
     padding: 18px;
     border-radius: 17px;
     text-align: center;
-    margin: 0 1em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 1.5em;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.03);
 }
 
 .card img {
